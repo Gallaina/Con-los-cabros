@@ -1,0 +1,32 @@
+body {
+    background-image: url("img/fondo.jpg");
+}
+#contenedor{
+    width:800px;
+}
+#divBanner {
+    width:800px;
+    text-align: right;
+    background-color:burlywood;
+    height: 100px;
+}
+#menu{
+    background-color:cadetblue;
+    font-family: 'Comic Sans MS';
+    float:left;
+    margin:10px 10px auto 0;
+    border:1px solid #333333;
+}
+#descripcion{
+    font-size:16px;
+    text-align:justify;
+    background-color:aquamarine;
+    position:center;
+    float: initial;
+}
+
+#video{
+    background-color:darkgrey;
+    position:center;
+    float: initial;
+}
