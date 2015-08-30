@@ -1,32 +1,75 @@
+
 body {
-    background-image: url("img/fondo.jpg");
+    background-color:lightgoldenrodyellow;
 }
 #contenedor{
-    width:800px;
-}
-#divBanner {
-    width:800px;
-    text-align: right;
-    background-color:burlywood;
-    height: 100px;
-}
-#menu{
-    background-color:cadetblue;
-    font-family: 'Comic Sans MS';
-    float:left;
-    margin:10px 10px auto 0;
-    border:1px solid #333333;
-}
-#descripcion{
-    font-size:16px;
-    text-align:justify;
+    margin: auto;
     background-color:aquamarine;
-    position:center;
-    float: initial;
+    margin-top:50px;
+    width:960px;
+    height:950px;
+}
+#divBanner{
+    background-image: url('img/Banner.png');
+    height: 147px;
+    width: 796px;
+}
+#divRegistro {
+    
+    text-align: right;
+    margin-left: 582px;
+}
+div#menu{
+    font-family: 'Comic Sans MS';
+    width:217px;
+    margin-top:50px;
+    height: 610px;
+    float:left;
 }
 
-#video{
-    background-color:darkgrey;
-    position:center;
-    float: initial;
+div#Descripcion{
+    float:rigth;
+    width: 737px;
+    height: 232px;
+}
+div#Video{
+    float:rigth;
+    width: 737px;
+    height: 232px;
+}
+
+div#menu ul{
+    list-style: none;
+}
+
+div#menu ul li{ 
+
+    margin-top: 15px;
+    font-size:16px;
+    background-color: cadetblue;
+    width:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-left 0.6s;
+    color:white;
+}
+
+    div#menu ul li:hover {
+        padding-left: 50px;
+    }
+
+footer {
+    float:left;
+    width:863px;
+    height: 76px;
+}
+
+#piePagina {
+    float:left;
+    background-image: url('img/footer.png');
+    width:960px;
+    height: 77px;
 }
